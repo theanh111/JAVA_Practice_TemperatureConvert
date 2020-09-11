@@ -26,6 +26,8 @@ public class TempConvert {
                     celsius = input.nextDouble();
                     System.out.println("Celsius to Fahrenheit: " + celsiusToFahrenheit(celsius));
                     break;
+                case 0:
+                    System.exit(0);
             }
         }
         while (choice != 0);
